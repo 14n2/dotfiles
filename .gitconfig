@@ -1,0 +1,9 @@
+[user]
+	email = yiyang.zhong@outlook.fr
+	name = ianz
+[pull]
+	rebase = true
+[core]
+	editor = vim
+[init]
+	defaultBranch = master

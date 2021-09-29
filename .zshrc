@@ -129,12 +129,13 @@ alias zshconf="vim ~/.zshrc"
 alias ohmyzshconf="vim ~/.oh-my-zsh"
 alias so="source"
 alias c="clear"
-alias odr-s="onedrive --synchronize"
+alias odrsyn="onedrive --synchronize"
 # Extended git alias
 alias gt="git tag"
 alias gta="git tag -a"
 alias gtn="git tag -n"
 alias gpft="git push --follow-tags"
+alias dualmon=". ~/.screenlayout/dual.sh"
 # bare repo for dotfiles
 alias dtf="git --git-dir=$HOME/.dtf/ --work-tree=$HOME"
 

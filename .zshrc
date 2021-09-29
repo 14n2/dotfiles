@@ -136,6 +136,7 @@ alias gta="git tag -a"
 alias gtn="git tag -n"
 alias gpft="git push --follow-tags"
 alias dualmon=". ~/.screenlayout/dual.sh"
+alias solomon=". ~/.screenlayout/solo.sh"
 # bare repo for dotfiles
 alias dtf="git --git-dir=$HOME/.dtf/ --work-tree=$HOME"
 

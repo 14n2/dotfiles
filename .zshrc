@@ -90,7 +90,6 @@ plugins=(
      z
      zsh-autosuggestions
      zsh-syntax-highlighting
-     zsh_reload
      ssh-agent
 )
 
@@ -139,6 +138,10 @@ alias dualmon=". ~/.screenlayout/dual.sh"
 alias solomon=". ~/.screenlayout/solo.sh"
 # bare repo for dotfiles
 alias dtf="git --git-dir=$HOME/.dtf/ --work-tree=$HOME"
+
+src() {
+    omz reload
+}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
